@@ -44,6 +44,8 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
+        var ref = cordova.InAppBrowser.open('http://shopmate.bahgatfarms.com/categories', '_blank', 'location=no');
+
         console.log('Received Event: ' + id);
     }
 };
